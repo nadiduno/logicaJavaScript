@@ -11,6 +11,9 @@ resetGame()
 function displayText(tag,text){
     let myelemnet = document.querySelector(tag);
     myelemnet.innerHTML = text;
+    responsiveVoice.speak(text, 'Brazilian Portuguese Female', {rate:1.2});
+    // Texto, Idioma y rate é velocidade da voz
+    // Documentação https://responsivevoice.org/
 }
 
 
@@ -27,11 +30,12 @@ function verifyShot(){
     }
     else if(shotNum > numberRandom)
     {
-        alert(numberRandom)
+        // alert(numberRandom)
         displayText('p', `O numero segredo é menor ${shotNum}`);
     }
     else 
-    {    alert(numberRandom)
+    {    
+        // alert(numberRandom)
         displayText('p', `O numero segredo é maior ${shotNum}`);
     }
 }
