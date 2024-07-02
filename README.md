@@ -21,4 +21,4 @@
 https://responsivevoice.org/
 
 ## Deploy
-[Jogo - Deploy]((https://jogo-numero-five.vercel.app/)
+[Jogo - Deploy](https://jogo-numero-five.vercel.app/)
