@@ -10,7 +10,7 @@
 
 <div>
   <img 
-    alt="Portfólio de Nadi Duno"
+    alt="Pagina inicial do jogo"
     src="https://github.com/nadiduno/logicaJavaScript/blob/main/.github/App.png" 
     width="70%"
   >
